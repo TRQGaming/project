@@ -107,3 +107,8 @@ h1 {
 	text-align: right;
 	margin-bottom: 100px;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }

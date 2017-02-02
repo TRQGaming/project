@@ -9,7 +9,7 @@
     <body>
         <div>
             <div class="menucheckout">
-                <h2 class="logo" >Game  <span class="glyphicon glyphicon-cloud"></span></h2>
+                <a href="home"><h2 class="logo" >Game  <span class="glyphicon glyphicon-cloud"></span></h2></a>
                 <ui class="checkoutmenu"><a href="#about">Shopping Chart (0)</a>
             </div>
             <table class="checkouttable border">

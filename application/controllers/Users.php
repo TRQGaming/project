@@ -20,6 +20,10 @@ class Users extends CI_Controller {
 	{
 		$this->load->view('checkout');
 	}
+	public function home()
+	{
+		$this->load->view('home');
+	}
 
 
 	// public function user_register()
