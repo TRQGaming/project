@@ -14,6 +14,7 @@ h1 {
 #login {
 	text-align: center;
 	margin-bottom: 20px;
+	opacity: 1;
 }
 #logindetails {
 	background-color: white;
@@ -108,7 +109,33 @@ h1 {
 	margin-bottom: 100px;
 }
 .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
+.carousel-inner > .item > a > img {
+      width: 100%;
       margin: auto;
-  }
+}
+.middlemiddle {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+#homem {
+	background-color: white;
+	color: black;
+	border-radius: 50px;
+	position: relative;
+	opacity: 0.7;
+	width: 400px;
+	height: 230px;
+	margin-bottom: 200px;
+}
+html {
+	background-color: black;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+.room {
+	margin-bottom: 15px;
+}
