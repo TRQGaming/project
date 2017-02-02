@@ -65,3 +65,45 @@ h1 {
 .dontshow {
 	visibility: hidden;
 }
+.checkoutmenu {
+	float: right;
+	display: inline-block;
+	margin-top: 7px;
+	margin-right: 20px;
+}
+.logo {
+	display: inline-block;
+	margin: 0px;
+	color: white;
+	margin-left: 20px;
+}
+.menucheckout {
+	background-color: black;
+	background-blend-mode: hard-light;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	padding: 10px;
+}
+.checkouttable {
+	width: 70%;
+	text-align: center;
+	margin-top: 100px;
+	border-collapse: collapse;
+}
+.checkouthead {
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+.border {
+	border: 3px solid black;
+}
+.borderthin {
+	border: 1px solid black;
+}
+#moveright {
+	float: right;
+	margin-right: 15%;
+	text-align: right;
+	margin-bottom: 100px;
+}

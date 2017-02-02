@@ -11,7 +11,7 @@
             <ul class="list-inline">
                 <li class="ordersmenu col-sm-0 col-lg-2 col-md-0 center">Dashboard</li>
                 <li class="ordersmenu col-sm-0 col-lg-2 col-md-0 center"><a href="#">Orders</a></li>
-                <li class="ordersmenu col-sm-0 col-lg-2 col-md-0 center"><a href="#">Products</a></li>
+                <li class="ordersmenu col-sm-0 col-lg-2 col-md-0 center"><a href="/Users/checkout">Products</a></li>
                 <li class="ordersmenu col-sm-0 col-lg-4 col-md-0 center dontshow">hfdhj</li>
                 <li class="ordersmenu col-sm-0 col-lg-2 col-md-0 center"><a href="/Users/index">log off</a></li>
             </ul>

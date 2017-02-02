@@ -16,6 +16,11 @@ class Users extends CI_Controller {
 	{
 		$this->load->view('orders');
 	}
+	public function checkout()
+	{
+		$this->load->view('checkout');
+	}
+
 
 	// public function user_register()
 	// {
