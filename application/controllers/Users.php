@@ -3,12 +3,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Users extends CI_Controller {
 
+
+
+ public function admin()
+ {
+ $this->load->view('index');
+ }
 	public function index()
 	{
 // <<<<<<< HEAD
 		// $this->output->enable_profiler();
 
-		$this->load->view('index');
+		$this->load->view('home');
 // =======
 // >>>>>>> master
 	}
@@ -81,6 +87,11 @@ class Users extends CI_Controller {
 						$this->load->view('order');
 				}
 	}
+
+public function order_pagination()
+			{
+
+			}
 
 
 public function cart()
