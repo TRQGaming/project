@@ -108,6 +108,14 @@ public function cart()
 							}
 			}
 
+			public function get_all()
+			{
+				$this->load->model('product');
+				$model = $this->model->fetach_all();
+				header('content-type: application/json');
+				echo json_encode($product);
+			}
+
 
 
 }
