@@ -34,22 +34,8 @@ class Users extends CI_Controller {
 	{
 		$this->load->view('games');
 	}
-	public function get_page($num)
-	{
-	  $this->load->model("product");
-	  $product = $this->Product->get_page($num);
-	  header('content-type: application/json');
-	  echo json_encode($product);
-	}
 
 
-	public function get_all()
-	{
-	$this->load->model('product');
-	$model = $this->model->fetach_all();
-	header('content-type: application/json');
-	echo json_encode($product);
-	}
 
 
 	// public function user_register()
@@ -108,10 +94,6 @@ class Users extends CI_Controller {
 				}
 	}
 
-public function order_pagination()
-			{
-
-			}
 
 
 public function cart()
@@ -128,10 +110,22 @@ public function cart()
 							}
 			}
 
+
+      public function get_page($num)
+      {
+        $this->load->model("product");
+        $product = $this->product->get_page($num);
+        header('content-type: application/json');
+        echo json_encode($product);
+      }
+
+
+
+
 			public function get_all()
 			{
 				$this->load->model('product');
-				$model = $this->model->fetach_all();
+				$product = $this->product->fetch_all();
 				header('content-type: application/json');
 				echo json_encode($product);
 			}
