@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body link="black">
         <div class="black">
             <div class="col-sm-12 col-lg-12 col-md-12">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
