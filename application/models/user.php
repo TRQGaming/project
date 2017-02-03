@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 class user extends CI_Model { //class must be the samw name as the file.
 
     function user_register($register)
@@ -29,4 +29,4 @@ class user extends CI_Model { //class must be the samw name as the file.
 }
 
 //every table should have a method within a class. the methods are the functions written inside of the class.
-//this file connects the what the user puts into the browser to the database.
+//this file connects the what the user puts into the browser to the database. -->
