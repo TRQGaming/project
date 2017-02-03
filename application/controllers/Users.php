@@ -30,6 +30,26 @@ class Users extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+	public function games()
+	{
+		$this->load->view('games');
+	}
+	public function get_page($num)
+	{
+	  $this->load->model("product");
+	  $product = $this->Product->get_page($num);
+	  header('content-type: application/json');
+	  echo json_encode($product);
+	}
+
+
+	public function get_all()
+	{
+	$this->load->model('product');
+	$model = $this->model->fetach_all();
+	header('content-type: application/json');
+	echo json_encode($product);
+	}
 
 
 	// public function user_register()

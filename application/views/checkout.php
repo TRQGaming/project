@@ -14,24 +14,32 @@
             </div>
             <table class="checkouttable border">
                 <tr>
-                    <th class="checkouthead border">Item</th>                        <th class="checkouthead border">Price</th>
+                    <th class="checkouthead border">Order</th>
+                    <th class="checkouthead border">Item</th>
+                    <th class="checkouthead border">Price</th>
                 </tr>
                 <tr>
                     <td class="borderthin">Fake Data</td>
                     <td class="borderthin">Fake Data</td>
-                </tr>
-                <tr>
-                    <td class="borderthin">Fake Data</td>                        <td class="borderthin">Fake Data</td>
-                </tr>
-                <tr>
-                    <td class="borderthin">Fake Data</td>
                     <td class="borderthin">Fake Data</td>
                 </tr>
                 <tr>
                     <td class="borderthin">Fake Data</td>
                     <td class="borderthin">Fake Data</td>
+                    <td class="borderthin">Fake Data</td>
                 </tr>
                 <tr>
+                    <td class="borderthin">Fake Data</td>
+                    <td class="borderthin">Fake Data</td>
+                    <td class="borderthin">Fake Data</td>
+                </tr>
+                <tr>
+                    <td class="borderthin">Fake Data</td>
+                    <td class="borderthin">Fake Data</td>
+                    <td class="borderthin">Fake Data</td>
+                </tr>
+                <tr>
+                    <td class="borderthin">Fake Data</td>
                     <td class="borderthin">Fake Data</td>
                     <td class="borderthin">Fake Data</td>
                 </tr>
